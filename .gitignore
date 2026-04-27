@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env
+
+# Tool Outputs & Temp Files
+assertion_output
+*.sby
+yosys_output.txt
+sby_output.txt
+*.log
+queries.txt
+generated_queries*.txt
+report.json
+final_result.json
+
+# Large Files & Secrets
+custom_tree.json
+API_list.txt
+sockit.pdf
+
+# Output directories
+check/
+testfiles/
